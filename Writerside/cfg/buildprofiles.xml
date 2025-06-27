@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <noindex-content>false</noindex-content>
+        <primary-color>iris</primary-color>
+        <link-color>forest</link-color>
+
+        <header-logo>logo.svg</header-logo>
+        <custom-favicons>logo.png</custom-favicons>
+        <download-title>Conheça o Grade me hard</download-title>
+        <download-page>https://github.com/Opaleiros-Foundation/grademehard</download-page>
+        <showDownloadButton>true</showDownloadButton>
+
+    </variables>
+    <build-profile instance="hi">
+        <variables>
+            <noindex-content>true</noindex-content>
+            <og-image>logo.png</og-image>
+        </variables>
+    </build-profile>
+    <footer>
+        <copyright>2025 Opaleiros Corp.</copyright>
+        <notice>Opala Ltda.</notice>
+
+        <social type="github"
+                href="https://github.com/Opaleiros-Foundation"/>
+        <social type="gitlab" href="https://gitlab.com/opaleiros-foundation"/>
+        <social type="twitter" href="https://x.com/MrPunkSama"/>
+        <link href="https://opaleiros.com">Opala website</link>
+    </footer>
+    <sitemap priority="0.35" change-frequency="monthly"/>
+</buildprofiles>

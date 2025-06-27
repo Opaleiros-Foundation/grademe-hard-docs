@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                 name="Grade me hard"
+                 start-page="Starter.md">
+
+    <toc-element topic="Starter.md" />
+    <toc-element topic="software-engineering.md">
+        <toc-element topic="BRD.md"/>
+        <toc-element topic="Desenvolvimento.md"/>
+        <toc-element topic="Engenharia-de-Software.md"/>
+        <toc-element topic="Manual.md"/>
+        <toc-element topic="Stack.md"/>
+    </toc-element>
+    <toc-element topic="Conclusao.md"/>
+</instance-profile>

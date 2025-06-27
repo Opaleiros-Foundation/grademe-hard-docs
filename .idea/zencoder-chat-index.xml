@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ai.zencoder.plugin.chat.index">
+    <option name="chatMetadata" value="{&quot;20d3654a-6f90-465b-9b68-26f36b26c9d4&quot;:{&quot;id&quot;:&quot;20d3654a-6f90-465b-9b68-26f36b26c9d4&quot;,&quot;title&quot;:&quot;Casos de Uso Alinhados a Requisitos&quot;,&quot;createdAt&quot;:1750990140825,&quot;updatedAt&quot;:1750990256002,&quot;isAgent&quot;:true,&quot;isNameGenerated&quot;:true,&quot;messageCount&quot;:2,&quot;lastMessagePreview&quot;:&quot;Vou analisar o arquivo atual e corrigir os casos de uso para que estejam alinhados com os requisitos...&quot;}}" />
+  </component>
+</project>
