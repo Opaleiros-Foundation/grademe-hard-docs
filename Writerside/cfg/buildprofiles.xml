@@ -5,15 +5,13 @@
 
     <variables>
         <noindex-content>false</noindex-content>
-        <primary-color>iris</primary-color>
-        <link-color>forest</link-color>
-
+        <primary-color>#7011CC</primary-color>
         <header-logo>logo.svg</header-logo>
         <custom-favicons>logo.png</custom-favicons>
         <download-title>Conheça o Grade me hard</download-title>
         <download-page>https://github.com/Opaleiros-Foundation/grademehard</download-page>
         <showDownloadButton>true</showDownloadButton>
-
+        <custom-css>custom.css</custom-css>
     </variables>
     <build-profile instance="hi">
         <variables>
@@ -32,4 +30,5 @@
         <link href="https://opaleiros.com">Opala website</link>
     </footer>
     <sitemap priority="0.35" change-frequency="monthly"/>
+    <llms-txt single-file="true"/>
 </buildprofiles>

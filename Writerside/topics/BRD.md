@@ -1,97 +1,59 @@
-# BRD
+# Business Requirements Document (BRD)
 
-> **Definição de BRD**
->
-> A business requirements document (BRD) é um relatório detalhado que descreve tudo o que um novo projeto requer para
-obter sucesso. Este documento delineia os objetivos do projeto, o que é esperado ao longo do ciclo de vida do projeto e
-o que é necessário para alcançar o projeto.
->
-{style="note"}
+A Business Requirements Document (BRD) is a comprehensive report that details everything a new project needs to succeed. This document outlines the project's goals, what to expect throughout the project lifecycle, and what is required to achieve them.
 
+## Executive Summary
 
+This report describes the development of a new software product. The system is designed to solve a specific business problem by providing a robust, scalable, and user-friendly solution that meets the needs of key stakeholders.
 
-## Objetivo do projeto
+## Project Objective
 
-Um sistema para avaliar e analisar profissionalmente e acadêmicamente comparar a performance dos alunos em relação aos
-seus colegas.
-O objetivo deste projeto é criar uma plataforma onde alunos possam avaliar as atividades dos outros alunos, os quais já
-trabalharam juntos e compará-las
-com outras turmas ou até mesmo com outras escolas. A avaliação será feita por meio de atributos pré-definidos como por exemplo:
+The application will enable users to manage their activities with the following features:
 
-- Comunicação
-- Trabalho em Equipe
-- Objetivo: Falador (Fala de tudo menos do assunto principal da daily)
-- Colaboração
+- **User Management**: Secure registration, authentication, and profile management.
+- **Core Feature A**: Creation, editing, and deletion of primary data elements.
+- **Core Feature B**: Advanced tools for data processing and visualization.
+- **Collaboration**: Features that allow users to share and collaborate on content.
+- **Admin Panel**: A dashboard for administrators to manage users and system settings.
+- **Reporting**: Generation of reports to track key metrics and user activity.
 
-Esses atributos serão aplicados às atividades dos alunos. Os resultados da avaliação serão exibidos na forma de gráficos
-utilizando cartas que representam o aluno com o valor de seus atributos,
-permitindo que os alunos façam análises mais detalhadas sobre o desempenho dos alunos e saibam sobre o desempenho dos
-seus colegas, os quais estão trabalhando em equipe junto a você.  Além de suas próprias habilidades.
+## Project Scope
 
-## Escopo do projeto
-Muita fé
-### Objetivo principal do projeto
+The project will be executed by a team composed of a Product Owner, developers, and a QA Engineer, following the Scrum agile methodology to ensure iterative progress and continuous feedback.
 
-Implementar um sistema web que permita a avaliação entre alunos em forma de cartas de baralho.
+## Business Requirements
 
-**Funcionalidades incluídas**
-
-- Cadastro e login de usuários
-- Avaliação de outros cards
-- Cada card terá atributos com pountuação, que será calculada com base na pontuação dada durante os feedbacks
-- Simulação de equipes com outros alunos
-- Comparação de equipes com base nos cards
-- Batalha entre equipes e alunos
-- Rank de melhores alunos e melhores equipes
-- Ranking geral
-
-**Regras que impactam o desenvolvimento.**
-
-- Cada aluno só pode criar sua própria carta(Em análise)
-- Uma carta só pode ser avaliada uma vez por aluno
-- As avaliações são anônimas
-- Rank resetado a cada módulo
-
-**Sistemas envolvidos**
-
-User service Opaleiros
-
-**Usuários envolvidos**
-
-Alunos da instituição
-
-
-**Restrições técnicas ou operacionais**
-
-o sistema deve rodar em navegadores modernos. E será totalmente online e web.
-
-**Premissas do projeto**
-Os votos serão reiniciados a cada módulo(temporada) para que todas tenham a chance de se remedir e melhorar no rank 
-
-**O que está fora do escopo (out of scope)**
-
-O que não foi incluido no escopo do projeto.
-
-## Requerimento de negócios
-
-> Mvp 1.0
-
-| Requisito de Negócio                        | Prioridade | Nível Crítico |
-|---------------------------------------------|------------|---------------|
-| Criação da própria carta                    | 1          | critico       |
-| Avaliação de outras cartas                  | 1          | critico       |
-| Atualização dos atributos das outras cartas | 1          | critico       |
-| Rank de alunos                              | 1          | critico       |
-| Simulação de equipes                        | 2          | medio         |
-| Comparação de equipes                       | 2          | medio         |
-| Ranking geral das equpes                    | 3          | baixo         |
-| Reset do rank a cada fim de módulo          | 2          | médio         |
+| Business Requirement | Priority | Criticality Level |
+|---|---|---|
+| Core Functionality | 1 | Critical |
+| User Experience (UX) | 2 | High |
+| System Performance | 3 | Medium |
+| Security and Accessibility | 4 | High |
+| Scalability | 5 | Medium |
 
 ## Key Stakeholders
 
-| Nome    | Ocupação                                |
-|---------|-----------------------------------------|
-| Mariah  | Ditadora da Republica popular da Coreia |
-| Matheus | Vigilante noturno                       |
-| Gustavo | Techlead                                |
+| Name | Role |
+|---|---|
+| [Stakeholder Name] | Product Owner |
+| [Stakeholder Name] | Lead Developer |
+| [Stakeholder Name] | QA Engineer |
+| [Stakeholder Name] | Project Manager |
 
+## Project Constraints
+
+| Constraint | Description |
+|---|---|
+| Deadline | The project must be completed within the established timeframe to meet market demands. |
+| Human Resources | The team consists of a limited number of members for project development. |
+| Budget | The project must be developed using approved tools and technologies, without additional costs. |
+| Technology | The application must be developed with technologies aligned with the company's strategy. |
+| Scope | Core features must be delivered as a Minimum Viable Product (MVP) in the first phase. |
+
+## Cost-Benefit Analysis
+
+| Benefit | Description |
+|---|---|
+| Increased Efficiency | The system will automate manual processes, improving operational efficiency. |
+| Improved Decision-Making | Access to real-time data and reports will facilitate more informed strategic decisions. |
+| Enhanced User Satisfaction | A modern and intuitive interface will improve the end-user experience. |
