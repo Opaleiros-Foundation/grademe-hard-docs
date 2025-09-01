@@ -16,7 +16,7 @@ Um sistema para avaliar e analisar profissionalmente e acadêmicamente comparar 
 seus colegas.
 O objetivo deste projeto é criar uma plataforma onde alunos possam avaliar as atividades dos outros alunos, os quais já
 trabalharam juntos e compará-las
-com outras turmas ou até mesmo com outras escolas. A avaliação será feita por meio de atributos pré-definidos como:
+com outras turmas ou até mesmo com outras escolas. A avaliação será feita por meio de atributos pré-definidos como por exemplo:
 
 - Comunicação
 - Trabalho em Equipe
@@ -29,7 +29,7 @@ permitindo que os alunos façam análises mais detalhadas sobre o desempenho dos
 seus colegas, os quais estão trabalhando em equipe junto a você.  Além de suas próprias habilidades.
 
 ## Escopo do projeto
-
+Muita fé
 ### Objetivo principal do projeto
 
 Implementar um sistema web que permita a avaliação entre alunos em forma de cartas de baralho.
@@ -37,21 +37,20 @@ Implementar um sistema web que permita a avaliação entre alunos em forma de ca
 **Funcionalidades incluídas**
 
 - Cadastro e login de usuários
-- Criação do próprio card
 - Avaliação de outros cards
 - Cada card terá atributos com pountuação, que será calculada com base na pontuação dada durante os feedbacks
 - Simulação de equipes com outros alunos
 - Comparação de equipes com base nos cards
 - Batalha entre equipes e alunos
 - Rank de melhores alunos e melhores equipes
-- Ranking geral das escolas
+- Ranking geral
 
 **Regras que impactam o desenvolvimento.**
 
-- Cada aluno só pode criar sua própria carta
-- Um aluno só pode avaliar outra carta uma vez
+- Cada aluno só pode criar sua própria carta(Em análise)
 - Uma carta só pode ser avaliada uma vez por aluno
 - As avaliações são anônimas
+- Rank resetado a cada módulo
 
 **Sistemas envolvidos**
 
@@ -64,11 +63,10 @@ Alunos da instituição
 
 **Restrições técnicas ou operacionais**
 
-o sistema deve rodar em navegadores modernos. E não será totalmente online e web.
+o sistema deve rodar em navegadores modernos. E será totalmente online e web.
 
 **Premissas do projeto**
-
-Os dados dos alunos serão gerados pelo proprio aluno.
+Os votos serão reiniciados a cada módulo(temporada) para que todas tenham a chance de se remedir e melhorar no rank 
 
 **O que está fora do escopo (out of scope)**
 
@@ -86,8 +84,8 @@ O que não foi incluido no escopo do projeto.
 | Rank de alunos                              | 1          | critico       |
 | Simulação de equipes                        | 2          | medio         |
 | Comparação de equipes                       | 2          | medio         |
-| Batalha entre equipes                       | 2          | medio         |
 | Ranking geral das equpes                    | 3          | baixo         |
+| Reset do rank a cada fim de módulo          | 2          | médio         |
 
 ## Key Stakeholders
 

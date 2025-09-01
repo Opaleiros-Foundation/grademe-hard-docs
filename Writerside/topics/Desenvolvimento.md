@@ -18,21 +18,17 @@ O objetivo geral deste projeto é desenvolver um sistema que auxilie os alunos d
 e interesses dos seus colegas de equipe estão alinhados com o objetivo do projeto em equipe.
 
 ### Objetivos Específicos
-
-1. **Implementar criação de carta do próprio aluno**: Integrar a funcionalidade de criação da própria carta de
-   avaliação.
-2. **Implementar a avaliação de outros alunos**: Integrar a funcionalidade de avaliar outras cartas de avaliação.
-3. **Implementar o ranking das melhores avaliações**: Integrar a funcionalidade de mostrar o ranking das melhores
+1. **Implementar a avaliação de outros alunos**: Integrar a funcionalidade de avaliar outras cartas de avaliação.
+2. **Implementar o ranking das melhores avaliações**: Integrar a funcionalidade de mostrar o ranking das melhores
    avaliações.
-4. **Implementar o ranking das piores avaliações**: Integrar a funcionalidade de mostrar o ranking das piores
+3. **Implementar o ranking das piores avaliações**: Integrar a funcionalidade de mostrar o ranking das piores
    avaliações.
-5. **Implementar a visualização dos detalhes da avaliação**: Integrar a funcionalidade de visualizar os detalhes da
+4. **Implementar a visualização dos detalhes da avaliação**: Integrar a funcionalidade de visualizar os detalhes da
    avaliação selecionada pelo usuário.
-6. **Implementar a edição da carta do próprio aluno**: Integrar a funcionalidade de editar a carta do próprio aluno.
-7. **Implmementar calculo para a pontuação do aluno**: Integrar calculo para mostrar a pontuação do aluno, baseado nos
+5. **Implementar a edição da carta do próprio aluno**: Integrar a funcionalidade de editar a carta do próprio aluno.
+6. **Implmementar calculo para a pontuação do aluno**: Integrar calculo para mostrar a pontuação do aluno, baseado nos
    pontos dados nos feedbacks.
-8. **Implementar o feedback resumido por uma IA**: Integrar com algum a gente de IA para poder analisar cada feedback
-   dado a um aluno e fazer um resumo
+
 
 ### Análise de Mercado
 

@@ -11,6 +11,9 @@
         <toc-element topic="BRD.md"/>
         <toc-element topic="Desenvolvimento.md"/>
         <toc-element topic="Engenharia-de-Software.md"/>
+        <toc-element topic="Calculos.md"/>
+        <toc-element topic="Cartas.md"/>
+        <toc-element topic="Diagrams.md"/>
         <toc-element topic="Manual.md"/>
         <toc-element topic="Stack.md"/>
     </toc-element>
