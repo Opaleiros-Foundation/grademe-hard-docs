@@ -1,12 +1,17 @@
 # Wireframes / Prototypes
 
-This section should include visual representations of the user interface, such as wireframes or prototypes. You can link to external tools (e.g., Figma, Adobe XD) or embed images directly.
+## Cartas
+As cartas possuem diversas prototipagens de sua lógica, a seguir algumas:
 
-> [Link to project's design files or prototype]
+### Atributos
+![attributes.png](attributes.png)
+Os atributos serão divididos em bubbles e cada um terá sua pontuação com base nos votos dos colegas de turma.
 
-#### Example Wireframe: [Feature Name]
+### Imagem
 
-[Description of the wireframe and its purpose]
+![card_prototype.png](card_prototype.png)
+A imagem da carta será definido pelo seu arquetipo, bom em slides, bom em comunicação, bom em desenvolvimento etc.. 
 
-<!-- You can embed images here or link to external wireframe tools. Example: -->
-<!-- ![Example Wireframe Image](images/your-wireframe-image.png) -->
+E o nível de seu arquetipo, como paladino, bardo, etc...
+
+
