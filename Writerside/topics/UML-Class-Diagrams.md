@@ -1,17 +1,48 @@
 # Class Diagrams
 
-This section should include Class Diagrams that represent the static structure of the system, detailing the main entities and their relationships.
-
-[Description of your Class Diagram and key classes]
 
 ```mermaid
 classDiagram
-    class ClassName {
-        +[attributeType] [attributeName]
-        +[methodName]() [returnType]
+    Image --> Level
+    Image --> Archtype
+    Card --> Image
+    Card "1" -- "many" Attribute: has >
+    User "1" -- "many" Card: favorites >
+%% Association class for Card-Attribute
+    class Card_Attribute {
+        +Int score
     }
-    class AnotherClassName]{
-        +[attributeType] [attributeName]
+    Card_Attribute .. Card
+    Card_Attribute .. Attribute
+
+    class Image {
+        +String url
     }
-    [ClassName] -- [AnotherClassName] : Relationship Description
+
+    class Level {
+        +String name
+        +Double score
+    }
+
+    class Archtype {
+        +String name
+        +String description
+    }
+
+    class Card {
+        +String name
+        +String description
+        +Int overall
+    }
+
+    class Attribute {
+        +String name
+        +Int score
+    }
+
+    class User {
+        +String name
+        +String email
+        +String password
+    }
 ```

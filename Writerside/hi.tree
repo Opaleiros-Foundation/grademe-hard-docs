@@ -19,8 +19,8 @@
             <toc-element topic="IA-Database-Design.md"/>
         </toc-element>
         <toc-element topic="Software-Engineering-UML-Diagrams.md">
-            <toc-element topic="UML-Use-Case-Diagrams.md"/>
             <toc-element topic="UML-Class-Diagrams.md"/>
+            <toc-element topic="UML-Use-Case-Diagrams.md"/>
             <toc-element topic="UML-Sequence-Diagrams.md"/>
             <toc-element topic="UML-Activity-Diagrams.md"/>
             <toc-element topic="UML-Component-Diagrams.md"/>
