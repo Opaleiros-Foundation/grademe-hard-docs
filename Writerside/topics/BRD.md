@@ -9,13 +9,6 @@
 
 O **%product%** é um sistema de avaliação colaborativa onde os utilizadores votam em "cartas" que representam as competências e o desempenho de profissionais ou estudantes.
 
-O objetivo do projeto é simplificar a complexa tarefa de avaliação de competências através de um sistema de cartas gamificado. Em vez de avaliar uma pessoa diretamente, os utilizadores avaliam uma carta que abstrai as suas qualidades, tornando o processo mais objetivo e focado nas habilidades. A avaliação será feita por meio de atributos pré-definidos, como por exemplo:
-
--   Comunicação
--   Trabalho em Equipe
--   Proatividade
--   Colaboração
-
 Os resultados da avaliação serão exibidos em cartas que representam o perfil avaliado, com os valores de seus atributos. Os utilizadores podem então montar equipas (decks) com as cartas para participar em torneios ou simular a força de um grupo, permitindo análises detalhadas sobre o desempenho individual e em equipa.
 
 ## Escopo do projeto
