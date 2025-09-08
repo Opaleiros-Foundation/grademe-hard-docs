@@ -1,3 +1,26 @@
+body {
+    font-family: 'Pirata One', system-ui!important;
+    font-weight: 400;
+    font-style: normal;
+}
+
 p {
     text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden; /* This is important to make the border-radius work on tables */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
 }
